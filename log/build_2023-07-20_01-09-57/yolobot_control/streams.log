@@ -1,0 +1,25 @@
+[0.067s] Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --build /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control -- -j4 -l4
+[0.189s] Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --build /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control -- -j4 -l4
+[0.463s] Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --install /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control
+[0.564s] -- Install configuration: ""
+[0.564s] -- Execute custom install script
+[0.564s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control//scripts/robot_control.py
+[0.564s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control//launch/yolobot_control.launch.py
+[0.564s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/lib/yolobot_control//robot_control.py
+[0.565s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/lib/yolobot_control//yolobot_control.launch.py
+[0.566s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/ament_index/resource_index/package_run_dependencies/yolobot_control
+[0.566s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/ament_index/resource_index/parent_prefix_path/yolobot_control
+[0.567s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/environment/ament_prefix_path.sh
+[0.567s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/environment/ament_prefix_path.dsv
+[0.567s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/environment/path.sh
+[0.567s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/environment/path.dsv
+[0.567s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/local_setup.bash
+[0.567s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/local_setup.sh
+[0.568s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/local_setup.zsh
+[0.568s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/local_setup.dsv
+[0.568s] -- Symlinking: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/package.dsv
+[0.581s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/ament_index/resource_index/packages/yolobot_control
+[0.582s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/cmake/yolobot_controlConfig.cmake
+[0.583s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/cmake/yolobot_controlConfig-version.cmake
+[0.584s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/package.xml
+[0.601s] Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --install /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control

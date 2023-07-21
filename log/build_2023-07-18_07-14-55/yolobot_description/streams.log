@@ -1,0 +1,26 @@
+[0.131s] Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake /home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description
+[0.277s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.809s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.855s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.198s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.198s] -- Added test 'lint_cmake' to check CMake code style
+[1.199s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.227s] -- Added test 'xmllint' to check XML markup files
+[1.227s] -- Configuring done (1.0s)
+[1.244s] -- Generating done (0.0s)
+[1.267s] -- Build files have been written to: /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description
+[1.345s] Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake /home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description
+[1.346s] Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --build /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description -- -j4 -l4
+[1.727s] Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --build /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description -- -j4 -l4
+[2.237s] Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --install /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description
+[2.361s] -- Install configuration: ""
+[2.361s] -- Execute custom install script
+[2.364s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[2.364s]   ament_cmake_symlink_install_directory() can't find
+[2.364s]   '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_description/scripts'
+[2.364s] Call Stack (most recent call first):
+[2.364s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[2.370s]   cmake_install.cmake:46 (include)
+[2.370s] 
+[2.371s] [0m
+[2.391s] Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --install /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description

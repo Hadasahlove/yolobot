@@ -1,0 +1,1 @@
+/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo/ament_cmake_environment_hooks/local_setup.sh

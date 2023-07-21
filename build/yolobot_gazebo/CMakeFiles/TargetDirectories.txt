@@ -1,0 +1,9 @@
+/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo/CMakeFiles/uninstall.dir
+/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo/CMakeFiles/yolobot_gazebo_uninstall.dir
+/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo/CMakeFiles/test.dir
+/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo/CMakeFiles/edit_cache.dir
+/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo/CMakeFiles/rebuild_cache.dir
+/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo/CMakeFiles/list_install_components.dir
+/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo/CMakeFiles/install.dir
+/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo/CMakeFiles/install/local.dir
+/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo/CMakeFiles/install/strip.dir

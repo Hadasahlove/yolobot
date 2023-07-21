@@ -1,0 +1,334 @@
+[0.449s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.450s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f3444689240>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3444796c80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3444796c80>>)
+[0.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.531s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jotham-prince/Desktop/Robotics/yolobot'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_control) by extension 'ignore'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_control) by extension 'ignore_ament_install'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_control) by extensions ['colcon_pkg']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_control) by extension 'colcon_pkg'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_control) by extensions ['colcon_meta']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_control) by extension 'colcon_meta'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_control) by extensions ['ros']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_control) by extension 'ros'
+[0.571s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolobot_control' with type 'ros.ament_cmake' and name 'yolobot_control'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_description) by extension 'ignore'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_description) by extension 'ignore_ament_install'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_description) by extensions ['colcon_pkg']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_description) by extension 'colcon_pkg'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_description) by extensions ['colcon_meta']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_description) by extension 'colcon_meta'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_description) by extensions ['ros']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_description) by extension 'ros'
+[0.573s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolobot_description' with type 'ros.ament_cmake' and name 'yolobot_description'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_gazebo) by extension 'ignore'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_gazebo) by extension 'ignore_ament_install'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_gazebo) by extensions ['colcon_pkg']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_gazebo) by extension 'colcon_pkg'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_gazebo) by extensions ['colcon_meta']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_gazebo) by extension 'colcon_meta'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_gazebo) by extensions ['ros']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_gazebo) by extension 'ros'
+[0.575s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolobot_gazebo' with type 'ros.ament_cmake' and name 'yolobot_gazebo'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extensions ['ignore', 'ignore_ament_install']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extension 'ignore'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extension 'ignore_ament_install'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extensions ['colcon_pkg']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extension 'colcon_pkg'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extensions ['colcon_meta']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extension 'colcon_meta'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extensions ['ros']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extension 'ros'
+[0.576s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolobot_recognition' with type 'ros.ament_cmake' and name 'yolobot_rocognition'
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.649s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.649s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.660s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 395 installed packages in /opt/ros/humble
+[0.664s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'yolobot_control' build argument 'cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'yolobot_control' build argument 'cmake_target' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'yolobot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'yolobot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'yolobot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'yolobot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'yolobot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'yolobot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'yolobot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.821s] DEBUG:colcon.colcon_core.verb:Building package 'yolobot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control', 'merge_install': False, 'path': '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_control', 'symlink_install': True, 'test_result_base': None}
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'yolobot_description' build argument 'cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'yolobot_description' build argument 'cmake_target' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'yolobot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'yolobot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'yolobot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'yolobot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'yolobot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'yolobot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'yolobot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.823s] DEBUG:colcon.colcon_core.verb:Building package 'yolobot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description', 'merge_install': False, 'path': '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_description', 'symlink_install': True, 'test_result_base': None}
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'yolobot_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'yolobot_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'yolobot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'yolobot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'yolobot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'yolobot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'yolobot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'yolobot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'yolobot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.824s] DEBUG:colcon.colcon_core.verb:Building package 'yolobot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo', 'merge_install': False, 'path': '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'yolobot_rocognition' build argument 'cmake_args' from command line to 'None'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'yolobot_rocognition' build argument 'cmake_target' from command line to 'None'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'yolobot_rocognition' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'yolobot_rocognition' build argument 'cmake_clean_cache' from command line to 'False'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'yolobot_rocognition' build argument 'cmake_clean_first' from command line to 'False'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'yolobot_rocognition' build argument 'cmake_force_configure' from command line to 'False'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'yolobot_rocognition' build argument 'ament_cmake_args' from command line to 'None'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'yolobot_rocognition' build argument 'catkin_cmake_args' from command line to 'None'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'yolobot_rocognition' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.826s] DEBUG:colcon.colcon_core.verb:Building package 'yolobot_rocognition' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition', 'merge_install': False, 'path': '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_recognition', 'symlink_install': True, 'test_result_base': None}
+[0.827s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.832s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.832s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_control' with build type 'ament_cmake'
+[0.832s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_control'
+[0.845s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.845s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.846s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.852s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_description' with build type 'ament_cmake'
+[0.852s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_description'
+[0.854s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.854s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.860s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_gazebo' with build type 'ament_cmake'
+[0.860s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_gazebo'
+[0.863s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.863s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.869s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_recognition' with build type 'ament_cmake'
+[0.870s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_recognition'
+[0.871s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.872s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /home/jotham-prince/.local/bin/cmake /home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control
+[0.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /home/jotham-prince/.local/bin/cmake /home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description
+[0.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /home/jotham-prince/.local/bin/cmake /home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo
+[0.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition': CMAKE_PREFIX_PATH=/opt/ros/humble /home/jotham-prince/.local/bin/cmake /home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_recognition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition
+[4.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/jotham-prince/.local/bin/cmake /home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description
+[4.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /home/jotham-prince/.local/bin/cmake --build /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description -- -j4 -l4
+[4.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/jotham-prince/.local/bin/cmake /home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control
+[4.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /home/jotham-prince/.local/bin/cmake --build /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control -- -j4 -l4
+[4.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/jotham-prince/.local/bin/cmake /home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_recognition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition
+[4.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition': CMAKE_PREFIX_PATH=/opt/ros/humble /home/jotham-prince/.local/bin/cmake --build /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition -- -j4 -l4
+[4.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/jotham-prince/.local/bin/cmake /home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo
+[4.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /home/jotham-prince/.local/bin/cmake --build /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo -- -j4 -l4
+[4.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/jotham-prince/.local/bin/cmake --build /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description -- -j4 -l4
+[4.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/jotham-prince/.local/bin/cmake --build /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control -- -j4 -l4
+[4.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/jotham-prince/.local/bin/cmake --build /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition -- -j4 -l4
+[4.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/jotham-prince/.local/bin/cmake --build /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo -- -j4 -l4
+[4.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /home/jotham-prince/.local/bin/cmake --install /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description
+[4.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /home/jotham-prince/.local/bin/cmake --install /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control
+[4.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition': CMAKE_PREFIX_PATH=/opt/ros/humble /home/jotham-prince/.local/bin/cmake --install /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition
+[4.820s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /home/jotham-prince/.local/bin/cmake --install /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo
+[5.009s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolobot_description)
+[5.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/jotham-prince/.local/bin/cmake --install /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description
+[5.041s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description' for CMake module files
+[5.042s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description' for CMake config files
+[5.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolobot_description', 'cmake_prefix_path')
+[5.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/hook/cmake_prefix_path.ps1'
+[5.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/hook/cmake_prefix_path.dsv'
+[5.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/hook/cmake_prefix_path.sh'
+[5.052s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/bin'
+[5.052s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/lib/pkgconfig/yolobot_description.pc'
+[5.053s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/lib/python3.10/site-packages'
+[5.053s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/bin'
+[5.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/package.ps1'
+[5.058s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/package.dsv'
+[5.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/package.sh'
+[5.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/package.bash'
+[5.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/package.zsh'
+[5.065s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/colcon-core/packages/yolobot_description)
+[5.069s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolobot_control)
+[5.074s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control' for CMake module files
+[5.075s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control' for CMake config files
+[5.076s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolobot_control', 'cmake_prefix_path')
+[5.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/hook/cmake_prefix_path.ps1'
+[5.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/jotham-prince/.local/bin/cmake --install /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control
+[5.080s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/hook/cmake_prefix_path.dsv'
+[5.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/hook/cmake_prefix_path.sh'
+[5.082s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/lib'
+[5.083s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/bin'
+[5.083s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/lib/pkgconfig/yolobot_control.pc'
+[5.083s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/lib/python3.10/site-packages'
+[5.083s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/bin'
+[5.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/package.ps1'
+[5.086s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/package.dsv'
+[5.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/package.sh'
+[5.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/package.bash'
+[5.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/package.zsh'
+[5.088s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/colcon-core/packages/yolobot_control)
+[5.090s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolobot_rocognition)
+[5.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/jotham-prince/.local/bin/cmake --install /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition
+[5.096s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition' for CMake module files
+[5.098s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition' for CMake config files
+[5.099s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolobot_rocognition', 'cmake_prefix_path')
+[5.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/hook/cmake_prefix_path.ps1'
+[5.104s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/hook/cmake_prefix_path.dsv'
+[5.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/hook/cmake_prefix_path.sh'
+[5.105s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/bin'
+[5.106s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/lib/pkgconfig/yolobot_rocognition.pc'
+[5.106s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/lib/python3.10/site-packages'
+[5.108s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/bin'
+[5.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/package.ps1'
+[5.113s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/package.dsv'
+[5.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/package.sh'
+[5.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/package.bash'
+[5.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/package.zsh'
+[5.116s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/colcon-core/packages/yolobot_rocognition)
+[5.133s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolobot_gazebo)
+[5.138s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo' for CMake module files
+[5.140s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo' for CMake config files
+[5.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolobot_gazebo', 'cmake_prefix_path')
+[5.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/hook/cmake_prefix_path.ps1'
+[5.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/jotham-prince/.local/bin/cmake --install /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo
+[5.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/hook/cmake_prefix_path.dsv'
+[5.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/hook/cmake_prefix_path.sh'
+[5.150s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/bin'
+[5.150s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/lib/pkgconfig/yolobot_gazebo.pc'
+[5.151s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/lib/python3.10/site-packages'
+[5.151s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/bin'
+[5.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/package.ps1'
+[5.156s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/package.dsv'
+[5.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/package.sh'
+[5.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/package.bash'
+[5.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/package.zsh'
+[5.159s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/colcon-core/packages/yolobot_gazebo)
+[5.224s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolobot_description)
+[5.230s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description' for CMake module files
+[5.232s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description' for CMake config files
+[5.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolobot_description', 'cmake_prefix_path')
+[5.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/hook/cmake_prefix_path.ps1'
+[5.238s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/hook/cmake_prefix_path.dsv'
+[5.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/hook/cmake_prefix_path.sh'
+[5.240s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/bin'
+[5.240s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/lib/pkgconfig/yolobot_description.pc'
+[5.241s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/lib/python3.10/site-packages'
+[5.242s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/bin'
+[5.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/package.ps1'
+[5.248s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/package.dsv'
+[5.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/package.sh'
+[5.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/package.bash'
+[5.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/package.zsh'
+[5.254s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/colcon-core/packages/yolobot_description)
+[5.263s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolobot_rocognition)
+[5.268s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition' for CMake module files
+[5.272s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition' for CMake config files
+[5.273s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolobot_rocognition', 'cmake_prefix_path')
+[5.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/hook/cmake_prefix_path.ps1'
+[5.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/hook/cmake_prefix_path.dsv'
+[5.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/hook/cmake_prefix_path.sh'
+[5.279s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/bin'
+[5.280s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/lib/pkgconfig/yolobot_rocognition.pc'
+[5.280s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/lib/python3.10/site-packages'
+[5.281s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/bin'
+[5.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/package.ps1'
+[5.287s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/package.dsv'
+[5.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/package.sh'
+[5.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/package.bash'
+[5.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/package.zsh'
+[5.291s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/colcon-core/packages/yolobot_rocognition)
+[5.297s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolobot_control)
+[5.301s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control' for CMake module files
+[5.302s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control' for CMake config files
+[5.303s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolobot_control', 'cmake_prefix_path')
+[5.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/hook/cmake_prefix_path.ps1'
+[5.307s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/hook/cmake_prefix_path.dsv'
+[5.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/hook/cmake_prefix_path.sh'
+[5.308s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/lib'
+[5.308s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/bin'
+[5.308s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/lib/pkgconfig/yolobot_control.pc'
+[5.309s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/lib/python3.10/site-packages'
+[5.309s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/bin'
+[5.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/package.ps1'
+[5.312s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/package.dsv'
+[5.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/package.sh'
+[5.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/package.bash'
+[5.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/package.zsh'
+[5.316s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/colcon-core/packages/yolobot_control)
+[5.319s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolobot_gazebo)
+[5.322s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo' for CMake module files
+[5.323s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo' for CMake config files
+[5.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolobot_gazebo', 'cmake_prefix_path')
+[5.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/hook/cmake_prefix_path.ps1'
+[5.326s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/hook/cmake_prefix_path.dsv'
+[5.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/hook/cmake_prefix_path.sh'
+[5.328s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/bin'
+[5.328s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/lib/pkgconfig/yolobot_gazebo.pc'
+[5.329s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/lib/python3.10/site-packages'
+[5.329s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/bin'
+[5.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/package.ps1'
+[5.332s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/package.dsv'
+[5.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/package.sh'
+[5.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/package.bash'
+[5.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/package.zsh'
+[5.334s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/colcon-core/packages/yolobot_gazebo)
+[5.335s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.335s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.335s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.336s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.348s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.349s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.349s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.379s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.384s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jotham-prince/Desktop/Robotics/yolobot/install/local_setup.ps1'
+[5.397s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jotham-prince/Desktop/Robotics/yolobot/install/_local_setup_util_ps1.py'
+[5.400s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jotham-prince/Desktop/Robotics/yolobot/install/setup.ps1'
+[5.404s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jotham-prince/Desktop/Robotics/yolobot/install/local_setup.sh'
+[5.405s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jotham-prince/Desktop/Robotics/yolobot/install/_local_setup_util_sh.py'
+[5.406s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jotham-prince/Desktop/Robotics/yolobot/install/setup.sh'
+[5.409s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jotham-prince/Desktop/Robotics/yolobot/install/local_setup.bash'
+[5.411s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jotham-prince/Desktop/Robotics/yolobot/install/setup.bash'
+[5.414s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jotham-prince/Desktop/Robotics/yolobot/install/local_setup.zsh'
+[5.415s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jotham-prince/Desktop/Robotics/yolobot/install/setup.zsh'

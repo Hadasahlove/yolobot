@@ -1,0 +1,9 @@
+/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition/CMakeFiles/uninstall.dir
+/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition/CMakeFiles/yolobot_rocognition_uninstall.dir
+/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition/CMakeFiles/test.dir
+/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition/CMakeFiles/edit_cache.dir
+/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition/CMakeFiles/rebuild_cache.dir
+/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition/CMakeFiles/list_install_components.dir
+/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition/CMakeFiles/install.dir
+/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition/CMakeFiles/install/local.dir
+/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition/CMakeFiles/install/strip.dir

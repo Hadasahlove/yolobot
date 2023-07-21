@@ -1,0 +1,21 @@
+[0.050s] Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --build /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition -- -j4 -l4
+[0.201s] Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --build /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition -- -j4 -l4
+[0.424s] Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --install /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition
+[0.533s] -- Install configuration: ""
+[0.533s] -- Execute custom install script
+[0.533s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/ament_index/resource_index/package_run_dependencies/yolobot_rocognition
+[0.534s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/ament_index/resource_index/parent_prefix_path/yolobot_rocognition
+[0.534s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/environment/ament_prefix_path.sh
+[0.534s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/environment/ament_prefix_path.dsv
+[0.534s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/environment/path.sh
+[0.536s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/environment/path.dsv
+[0.536s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/local_setup.bash
+[0.536s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/local_setup.sh
+[0.536s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/local_setup.zsh
+[0.537s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/local_setup.dsv
+[0.537s] -- Symlinking: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/package.dsv
+[0.559s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/ament_index/resource_index/packages/yolobot_rocognition
+[0.559s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/cmake/yolobot_rocognitionConfig.cmake
+[0.559s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/cmake/yolobot_rocognitionConfig-version.cmake
+[0.559s] -- Up-to-date symlink: /home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/package.xml
+[0.641s] Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --install /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition

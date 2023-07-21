@@ -1,0 +1,733 @@
+[0.958s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.958s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f192f201420>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f192f396e30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f192f396e30>>)
+[1.058s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.058s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.060s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jotham-prince/Desktop/Robotics/yolobot'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[1.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[1.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore_ament_install'
+[1.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['colcon_pkg']
+[1.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'colcon_pkg'
+[1.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['colcon_meta']
+[1.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'colcon_meta'
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ros']
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ros'
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['cmake', 'python']
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'cmake'
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'python'
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['python_setup_py']
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'python_setup_py'
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extensions ['ignore', 'ignore_ament_install']
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extension 'ignore'
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extension 'ignore_ament_install'
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extensions ['colcon_pkg']
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extension 'colcon_pkg'
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extensions ['colcon_meta']
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extension 'colcon_meta'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extensions ['ros']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extension 'ros'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extensions ['cmake', 'python']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extension 'cmake'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extension 'python'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extensions ['python_setup_py']
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles) by extension 'python_setup_py'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4) by extensions ['ignore', 'ignore_ament_install']
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4) by extension 'ignore'
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4) by extension 'ignore_ament_install'
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4) by extensions ['colcon_pkg']
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4) by extension 'colcon_pkg'
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4) by extensions ['colcon_meta']
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4) by extension 'colcon_meta'
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4) by extensions ['ros']
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4) by extension 'ros'
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4) by extensions ['cmake', 'python']
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4) by extension 'cmake'
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4) by extension 'python'
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4) by extensions ['python_setup_py']
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4) by extension 'python_setup_py'
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC) by extensions ['ignore', 'ignore_ament_install']
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC) by extension 'ignore'
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC) by extension 'ignore_ament_install'
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC) by extensions ['colcon_pkg']
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC) by extension 'colcon_pkg'
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC) by extensions ['colcon_meta']
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC) by extension 'colcon_meta'
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC) by extensions ['ros']
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC) by extension 'ros'
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC) by extensions ['cmake', 'python']
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC) by extension 'cmake'
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC) by extension 'python'
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC) by extensions ['python_setup_py']
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC) by extension 'python_setup_py'
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC/tmp) by extensions ['ignore', 'ignore_ament_install']
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC/tmp) by extension 'ignore'
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC/tmp) by extension 'ignore_ament_install'
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC/tmp) by extensions ['colcon_pkg']
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC/tmp) by extension 'colcon_pkg'
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC/tmp) by extensions ['colcon_meta']
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC/tmp) by extension 'colcon_meta'
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC/tmp) by extensions ['ros']
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC/tmp) by extension 'ros'
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC/tmp) by extensions ['cmake', 'python']
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC/tmp) by extension 'cmake'
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC/tmp) by extension 'python'
+[1.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC/tmp) by extensions ['python_setup_py']
+[1.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdC/tmp) by extension 'python_setup_py'
+[1.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX) by extensions ['ignore', 'ignore_ament_install']
+[1.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX) by extension 'ignore'
+[1.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX) by extension 'ignore_ament_install'
+[1.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX) by extensions ['colcon_pkg']
+[1.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX) by extension 'colcon_pkg'
+[1.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX) by extensions ['colcon_meta']
+[1.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX) by extension 'colcon_meta'
+[1.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX) by extensions ['ros']
+[1.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX) by extension 'ros'
+[1.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX) by extensions ['cmake', 'python']
+[1.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX) by extension 'cmake'
+[1.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX) by extension 'python'
+[1.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX) by extensions ['python_setup_py']
+[1.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX) by extension 'python_setup_py'
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX/tmp) by extensions ['ignore', 'ignore_ament_install']
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX/tmp) by extension 'ignore'
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX/tmp) by extension 'ignore_ament_install'
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX/tmp) by extensions ['colcon_pkg']
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX/tmp) by extension 'colcon_pkg'
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX/tmp) by extensions ['colcon_meta']
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX/tmp) by extension 'colcon_meta'
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX/tmp) by extensions ['ros']
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX/tmp) by extension 'ros'
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX/tmp) by extensions ['cmake', 'python']
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX/tmp) by extension 'cmake'
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX/tmp) by extension 'python'
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX/tmp) by extensions ['python_setup_py']
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/3.26.4/CompilerIdCXX/tmp) by extension 'python_setup_py'
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/pkgRedirects) by extensions ['ignore', 'ignore_ament_install']
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/pkgRedirects) by extension 'ignore'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/pkgRedirects) by extension 'ignore_ament_install'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/pkgRedirects) by extensions ['colcon_pkg']
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/pkgRedirects) by extension 'colcon_pkg'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/pkgRedirects) by extensions ['colcon_meta']
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/pkgRedirects) by extension 'colcon_meta'
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/pkgRedirects) by extensions ['ros']
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/pkgRedirects) by extension 'ros'
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/pkgRedirects) by extensions ['cmake', 'python']
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/pkgRedirects) by extension 'cmake'
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/pkgRedirects) by extension 'python'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/pkgRedirects) by extensions ['python_setup_py']
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/pkgRedirects) by extension 'python_setup_py'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/uninstall.dir) by extensions ['ignore', 'ignore_ament_install']
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/uninstall.dir) by extension 'ignore'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/uninstall.dir) by extension 'ignore_ament_install'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/uninstall.dir) by extensions ['colcon_pkg']
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/uninstall.dir) by extension 'colcon_pkg'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/uninstall.dir) by extensions ['colcon_meta']
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/uninstall.dir) by extension 'colcon_meta'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/uninstall.dir) by extensions ['ros']
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/uninstall.dir) by extension 'ros'
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/uninstall.dir) by extensions ['cmake', 'python']
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/uninstall.dir) by extension 'cmake'
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/uninstall.dir) by extension 'python'
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/uninstall.dir) by extensions ['python_setup_py']
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/uninstall.dir) by extension 'python_setup_py'
+[1.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/yolobot_description_uninstall.dir) by extensions ['ignore', 'ignore_ament_install']
+[1.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/yolobot_description_uninstall.dir) by extension 'ignore'
+[1.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/yolobot_description_uninstall.dir) by extension 'ignore_ament_install'
+[1.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/yolobot_description_uninstall.dir) by extensions ['colcon_pkg']
+[1.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/yolobot_description_uninstall.dir) by extension 'colcon_pkg'
+[1.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/yolobot_description_uninstall.dir) by extensions ['colcon_meta']
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/yolobot_description_uninstall.dir) by extension 'colcon_meta'
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/yolobot_description_uninstall.dir) by extensions ['ros']
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/yolobot_description_uninstall.dir) by extension 'ros'
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/yolobot_description_uninstall.dir) by extensions ['cmake', 'python']
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/yolobot_description_uninstall.dir) by extension 'cmake'
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/yolobot_description_uninstall.dir) by extension 'python'
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/yolobot_description_uninstall.dir) by extensions ['python_setup_py']
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/CMakeFiles/yolobot_description_uninstall.dir) by extension 'python_setup_py'
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing) by extensions ['ignore', 'ignore_ament_install']
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing) by extension 'ignore'
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing) by extension 'ignore_ament_install'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing) by extensions ['colcon_pkg']
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing) by extension 'colcon_pkg'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing) by extensions ['colcon_meta']
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing) by extension 'colcon_meta'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing) by extensions ['ros']
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing) by extension 'ros'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing) by extensions ['cmake', 'python']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing) by extension 'cmake'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing) by extension 'python'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing) by extensions ['python_setup_py']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing) by extension 'python_setup_py'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/20230718-0404) by extensions ['ignore', 'ignore_ament_install']
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/20230718-0404) by extension 'ignore'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/20230718-0404) by extension 'ignore_ament_install'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/20230718-0404) by extensions ['colcon_pkg']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/20230718-0404) by extension 'colcon_pkg'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/20230718-0404) by extensions ['colcon_meta']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/20230718-0404) by extension 'colcon_meta'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/20230718-0404) by extensions ['ros']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/20230718-0404) by extension 'ros'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/20230718-0404) by extensions ['cmake', 'python']
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/20230718-0404) by extension 'cmake'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/20230718-0404) by extension 'python'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/20230718-0404) by extensions ['python_setup_py']
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/20230718-0404) by extension 'python_setup_py'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/Temporary) by extensions ['ignore', 'ignore_ament_install']
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/Temporary) by extension 'ignore'
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/Temporary) by extension 'ignore_ament_install'
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/Temporary) by extensions ['colcon_pkg']
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/Temporary) by extension 'colcon_pkg'
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/Temporary) by extensions ['colcon_meta']
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/Temporary) by extension 'colcon_meta'
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/Temporary) by extensions ['ros']
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/Temporary) by extension 'ros'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/Temporary) by extensions ['cmake', 'python']
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/Temporary) by extension 'cmake'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/Temporary) by extension 'python'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/Temporary) by extensions ['python_setup_py']
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/Testing/Temporary) by extension 'python_setup_py'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core) by extensions ['ignore', 'ignore_ament_install']
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core) by extension 'ignore'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core) by extension 'ignore_ament_install'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core) by extensions ['colcon_pkg']
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core) by extension 'colcon_pkg'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core) by extensions ['colcon_meta']
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core) by extension 'colcon_meta'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core) by extensions ['ros']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core) by extension 'ros'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core) by extensions ['cmake', 'python']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core) by extension 'cmake'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core) by extension 'python'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core) by extensions ['python_setup_py']
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core) by extension 'python_setup_py'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core/stamps) by extensions ['ignore', 'ignore_ament_install']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core/stamps) by extension 'ignore'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core/stamps) by extension 'ignore_ament_install'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core/stamps) by extensions ['colcon_pkg']
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core/stamps) by extension 'colcon_pkg'
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core/stamps) by extensions ['colcon_meta']
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core/stamps) by extension 'colcon_meta'
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core/stamps) by extensions ['ros']
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core/stamps) by extension 'ros'
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core/stamps) by extensions ['cmake', 'python']
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core/stamps) by extension 'cmake'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core/stamps) by extension 'python'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core/stamps) by extensions ['python_setup_py']
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_core/stamps) by extension 'python_setup_py'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_environment_hooks) by extensions ['ignore', 'ignore_ament_install']
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_environment_hooks) by extension 'ignore'
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_environment_hooks) by extension 'ignore_ament_install'
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_environment_hooks) by extensions ['colcon_pkg']
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_environment_hooks) by extension 'colcon_pkg'
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_environment_hooks) by extensions ['colcon_meta']
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_environment_hooks) by extension 'colcon_meta'
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_environment_hooks) by extensions ['ros']
+[1.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_environment_hooks) by extension 'ros'
+[1.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_environment_hooks) by extensions ['cmake', 'python']
+[1.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_environment_hooks) by extension 'cmake'
+[1.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_environment_hooks) by extension 'python'
+[1.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_environment_hooks) by extensions ['python_setup_py']
+[1.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_environment_hooks) by extension 'python_setup_py'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index) by extensions ['ignore', 'ignore_ament_install']
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index) by extension 'ignore'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index) by extension 'ignore_ament_install'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index) by extensions ['colcon_pkg']
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index) by extension 'colcon_pkg'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index) by extensions ['colcon_meta']
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index) by extension 'colcon_meta'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index) by extensions ['ros']
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index) by extension 'ros'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index) by extensions ['cmake', 'python']
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index) by extension 'cmake'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index) by extension 'python'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index) by extensions ['python_setup_py']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index) by extension 'python_setup_py'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share) by extensions ['ignore', 'ignore_ament_install']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share) by extension 'ignore'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share) by extension 'ignore_ament_install'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share) by extensions ['colcon_pkg']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share) by extension 'colcon_pkg'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share) by extensions ['colcon_meta']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share) by extension 'colcon_meta'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share) by extensions ['ros']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share) by extension 'ros'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share) by extensions ['cmake', 'python']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share) by extension 'cmake'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share) by extension 'python'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share) by extensions ['python_setup_py']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share) by extension 'python_setup_py'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index) by extensions ['ignore', 'ignore_ament_install']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index) by extension 'ignore'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index) by extension 'ignore_ament_install'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index) by extensions ['colcon_pkg']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index) by extension 'colcon_pkg'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index) by extensions ['colcon_meta']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index) by extension 'colcon_meta'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index) by extensions ['ros']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index) by extension 'ros'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index) by extensions ['cmake', 'python']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index) by extension 'cmake'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index) by extension 'python'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index) by extensions ['python_setup_py']
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index) by extension 'python_setup_py'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index) by extensions ['ignore', 'ignore_ament_install']
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index) by extension 'ignore'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index) by extension 'ignore_ament_install'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index) by extensions ['colcon_pkg']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index) by extension 'colcon_pkg'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index) by extensions ['colcon_meta']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index) by extension 'colcon_meta'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index) by extensions ['ros']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index) by extension 'ros'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index) by extensions ['cmake', 'python']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index) by extension 'cmake'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index) by extension 'python'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index) by extensions ['python_setup_py']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index) by extension 'python_setup_py'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extensions ['ignore', 'ignore_ament_install']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extension 'ignore'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extension 'ignore_ament_install'
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extensions ['colcon_pkg']
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extension 'colcon_pkg'
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extensions ['colcon_meta']
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extension 'colcon_meta'
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extensions ['ros']
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extension 'ros'
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extensions ['cmake', 'python']
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extension 'cmake'
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extension 'python'
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extensions ['python_setup_py']
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extension 'python_setup_py'
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extensions ['ignore', 'ignore_ament_install']
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extension 'ignore'
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extension 'ignore_ament_install'
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extensions ['colcon_pkg']
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extension 'colcon_pkg'
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extensions ['colcon_meta']
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extension 'colcon_meta'
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extensions ['ros']
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extension 'ros'
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extensions ['cmake', 'python']
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extension 'cmake'
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extension 'python'
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extensions ['python_setup_py']
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/packages) by extension 'python_setup_py'
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extensions ['ignore', 'ignore_ament_install']
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extension 'ignore'
+[1.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extension 'ignore_ament_install'
+[1.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extensions ['colcon_pkg']
+[1.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extension 'colcon_pkg'
+[1.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extensions ['colcon_meta']
+[1.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extension 'colcon_meta'
+[1.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extensions ['ros']
+[1.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extension 'ros'
+[1.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extensions ['cmake', 'python']
+[1.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extension 'cmake'
+[1.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extension 'python'
+[1.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extensions ['python_setup_py']
+[1.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extension 'python_setup_py'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_package_templates) by extensions ['ignore', 'ignore_ament_install']
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_package_templates) by extension 'ignore'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_package_templates) by extension 'ignore_ament_install'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_package_templates) by extensions ['colcon_pkg']
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_package_templates) by extension 'colcon_pkg'
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_package_templates) by extensions ['colcon_meta']
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_package_templates) by extension 'colcon_meta'
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_package_templates) by extensions ['ros']
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_package_templates) by extension 'ros'
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_package_templates) by extensions ['cmake', 'python']
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_package_templates) by extension 'cmake'
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_package_templates) by extension 'python'
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_package_templates) by extensions ['python_setup_py']
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_package_templates) by extension 'python_setup_py'
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_uninstall_target) by extensions ['ignore', 'ignore_ament_install']
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_uninstall_target) by extension 'ignore'
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_uninstall_target) by extension 'ignore_ament_install'
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_uninstall_target) by extensions ['colcon_pkg']
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_uninstall_target) by extension 'colcon_pkg'
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_uninstall_target) by extensions ['colcon_meta']
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_uninstall_target) by extension 'colcon_meta'
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_uninstall_target) by extensions ['ros']
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_uninstall_target) by extension 'ros'
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_uninstall_target) by extensions ['cmake', 'python']
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_uninstall_target) by extension 'cmake'
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_uninstall_target) by extension 'python'
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_uninstall_target) by extensions ['python_setup_py']
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_cmake_uninstall_target) by extension 'python_setup_py'
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_flake8) by extensions ['ignore', 'ignore_ament_install']
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_flake8) by extension 'ignore'
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_flake8) by extension 'ignore_ament_install'
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_flake8) by extensions ['colcon_pkg']
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_flake8) by extension 'colcon_pkg'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_flake8) by extensions ['colcon_meta']
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_flake8) by extension 'colcon_meta'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_flake8) by extensions ['ros']
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_flake8) by extension 'ros'
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_flake8) by extensions ['cmake', 'python']
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_flake8) by extension 'cmake'
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_flake8) by extension 'python'
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_flake8) by extensions ['python_setup_py']
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_flake8) by extension 'python_setup_py'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_lint_cmake) by extensions ['ignore', 'ignore_ament_install']
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_lint_cmake) by extension 'ignore'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_lint_cmake) by extension 'ignore_ament_install'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_lint_cmake) by extensions ['colcon_pkg']
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_lint_cmake) by extension 'colcon_pkg'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_lint_cmake) by extensions ['colcon_meta']
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_lint_cmake) by extension 'colcon_meta'
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_lint_cmake) by extensions ['ros']
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_lint_cmake) by extension 'ros'
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_lint_cmake) by extensions ['cmake', 'python']
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_lint_cmake) by extension 'cmake'
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_lint_cmake) by extension 'python'
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_lint_cmake) by extensions ['python_setup_py']
+[1.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_lint_cmake) by extension 'python_setup_py'
+[1.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_pep257) by extensions ['ignore', 'ignore_ament_install']
+[1.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_pep257) by extension 'ignore'
+[1.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_pep257) by extension 'ignore_ament_install'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_pep257) by extensions ['colcon_pkg']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_pep257) by extension 'colcon_pkg'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_pep257) by extensions ['colcon_meta']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_pep257) by extension 'colcon_meta'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_pep257) by extensions ['ros']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_pep257) by extension 'ros'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_pep257) by extensions ['cmake', 'python']
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_pep257) by extension 'cmake'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_pep257) by extension 'python'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_pep257) by extensions ['python_setup_py']
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_pep257) by extension 'python_setup_py'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_xmllint) by extensions ['ignore', 'ignore_ament_install']
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_xmllint) by extension 'ignore'
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_xmllint) by extension 'ignore_ament_install'
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_xmllint) by extensions ['colcon_pkg']
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_xmllint) by extension 'colcon_pkg'
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_xmllint) by extensions ['colcon_meta']
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_xmllint) by extension 'colcon_meta'
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_xmllint) by extensions ['ros']
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_xmllint) by extension 'ros'
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_xmllint) by extensions ['cmake', 'python']
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_xmllint) by extension 'cmake'
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_xmllint) by extension 'python'
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_xmllint) by extensions ['python_setup_py']
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/build/ament_xmllint) by extension 'python_setup_py'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_control) by extensions ['ignore', 'ignore_ament_install']
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_control) by extension 'ignore'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_control) by extension 'ignore_ament_install'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_control) by extensions ['colcon_pkg']
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_control) by extension 'colcon_pkg'
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_control) by extensions ['colcon_meta']
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_control) by extension 'colcon_meta'
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_control) by extensions ['ros']
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_control) by extension 'ros'
+[1.245s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolobot_control' with type 'ros.ament_cmake' and name 'yolobot_control'
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_description) by extensions ['ignore', 'ignore_ament_install']
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_description) by extension 'ignore'
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_description) by extension 'ignore_ament_install'
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_description) by extensions ['colcon_pkg']
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_description) by extension 'colcon_pkg'
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_description) by extensions ['colcon_meta']
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_description) by extension 'colcon_meta'
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_description) by extensions ['ros']
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_description) by extension 'ros'
+[1.249s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolobot_description' with type 'ros.ament_cmake' and name 'yolobot_description'
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_gazebo) by extension 'ignore'
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_gazebo) by extension 'ignore_ament_install'
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_gazebo) by extensions ['colcon_pkg']
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_gazebo) by extension 'colcon_pkg'
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_gazebo) by extensions ['colcon_meta']
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_gazebo) by extension 'colcon_meta'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_gazebo) by extensions ['ros']
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_gazebo) by extension 'ros'
+[1.256s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolobot_gazebo' with type 'ros.ament_cmake' and name 'yolobot_gazebo'
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extensions ['ignore', 'ignore_ament_install']
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extension 'ignore'
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extension 'ignore_ament_install'
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extensions ['colcon_pkg']
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extension 'colcon_pkg'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extensions ['colcon_meta']
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extension 'colcon_meta'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extensions ['ros']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolobot_recognition) by extension 'ros'
+[1.262s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolobot_recognition' with type 'ros.ament_cmake' and name 'yolobot_rocognition'
+[1.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.350s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/jotham-prince/Desktop/Robotics/yolobot/install
+[1.359s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 395 installed packages in /opt/ros/humble
+[1.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.560s] Level 5:colcon.colcon_core.verb:set package 'yolobot_control' build argument 'cmake_args' from command line to 'None'
+[1.560s] Level 5:colcon.colcon_core.verb:set package 'yolobot_control' build argument 'cmake_target' from command line to 'None'
+[1.560s] Level 5:colcon.colcon_core.verb:set package 'yolobot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.560s] Level 5:colcon.colcon_core.verb:set package 'yolobot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.560s] Level 5:colcon.colcon_core.verb:set package 'yolobot_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.560s] Level 5:colcon.colcon_core.verb:set package 'yolobot_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.561s] Level 5:colcon.colcon_core.verb:set package 'yolobot_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.561s] Level 5:colcon.colcon_core.verb:set package 'yolobot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.561s] Level 5:colcon.colcon_core.verb:set package 'yolobot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.561s] DEBUG:colcon.colcon_core.verb:Building package 'yolobot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control', 'merge_install': False, 'path': '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_control', 'symlink_install': True, 'test_result_base': None}
+[1.565s] Level 5:colcon.colcon_core.verb:set package 'yolobot_description' build argument 'cmake_args' from command line to 'None'
+[1.566s] Level 5:colcon.colcon_core.verb:set package 'yolobot_description' build argument 'cmake_target' from command line to 'None'
+[1.566s] Level 5:colcon.colcon_core.verb:set package 'yolobot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.566s] Level 5:colcon.colcon_core.verb:set package 'yolobot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.566s] Level 5:colcon.colcon_core.verb:set package 'yolobot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.566s] Level 5:colcon.colcon_core.verb:set package 'yolobot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.566s] Level 5:colcon.colcon_core.verb:set package 'yolobot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.566s] Level 5:colcon.colcon_core.verb:set package 'yolobot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.566s] Level 5:colcon.colcon_core.verb:set package 'yolobot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.566s] DEBUG:colcon.colcon_core.verb:Building package 'yolobot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description', 'merge_install': False, 'path': '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_description', 'symlink_install': True, 'test_result_base': None}
+[1.570s] Level 5:colcon.colcon_core.verb:set package 'yolobot_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'yolobot_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'yolobot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'yolobot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'yolobot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'yolobot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'yolobot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'yolobot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'yolobot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.571s] DEBUG:colcon.colcon_core.verb:Building package 'yolobot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo', 'merge_install': False, 'path': '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_gazebo', 'symlink_install': True, 'test_result_base': None}
+[1.575s] Level 5:colcon.colcon_core.verb:set package 'yolobot_rocognition' build argument 'cmake_args' from command line to 'None'
+[1.576s] Level 5:colcon.colcon_core.verb:set package 'yolobot_rocognition' build argument 'cmake_target' from command line to 'None'
+[1.576s] Level 5:colcon.colcon_core.verb:set package 'yolobot_rocognition' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.576s] Level 5:colcon.colcon_core.verb:set package 'yolobot_rocognition' build argument 'cmake_clean_cache' from command line to 'False'
+[1.576s] Level 5:colcon.colcon_core.verb:set package 'yolobot_rocognition' build argument 'cmake_clean_first' from command line to 'False'
+[1.576s] Level 5:colcon.colcon_core.verb:set package 'yolobot_rocognition' build argument 'cmake_force_configure' from command line to 'False'
+[1.576s] Level 5:colcon.colcon_core.verb:set package 'yolobot_rocognition' build argument 'ament_cmake_args' from command line to 'None'
+[1.576s] Level 5:colcon.colcon_core.verb:set package 'yolobot_rocognition' build argument 'catkin_cmake_args' from command line to 'None'
+[1.576s] Level 5:colcon.colcon_core.verb:set package 'yolobot_rocognition' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.576s] DEBUG:colcon.colcon_core.verb:Building package 'yolobot_rocognition' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition', 'merge_install': False, 'path': '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_recognition', 'symlink_install': True, 'test_result_base': None}
+[1.579s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.593s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.594s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_control' with build type 'ament_cmake'
+[1.594s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_control'
+[1.605s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.605s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.606s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.626s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_description' with build type 'ament_cmake'
+[1.626s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_description'
+[1.630s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.631s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.647s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_gazebo' with build type 'ament_cmake'
+[1.648s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_gazebo'
+[1.653s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.653s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.670s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_recognition' with build type 'ament_cmake'
+[1.670s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_recognition'
+[1.674s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.674s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --build /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control -- -j4 -l4
+[1.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --build /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description -- -j4 -l4
+[1.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --build /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo -- -j4 -l4
+[1.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --build /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition -- -j4 -l4
+[1.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --build /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo -- -j4 -l4
+[2.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --build /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition -- -j4 -l4
+[2.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --build /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control -- -j4 -l4
+[2.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --install /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo
+[2.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --install /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition
+[2.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --install /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control
+[2.663s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolobot_rocognition)
+[2.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --install /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_rocognition
+[2.690s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition' for CMake module files
+[2.692s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition' for CMake config files
+[2.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolobot_rocognition', 'cmake_prefix_path')
+[2.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/hook/cmake_prefix_path.ps1'
+[2.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/hook/cmake_prefix_path.dsv'
+[2.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/hook/cmake_prefix_path.sh'
+[2.740s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/bin'
+[2.740s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/lib/pkgconfig/yolobot_rocognition.pc'
+[2.741s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/lib/python3.10/site-packages'
+[2.743s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/bin'
+[2.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/package.ps1'
+[2.749s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/package.dsv'
+[2.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/package.sh'
+[2.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/package.bash'
+[2.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/package.zsh'
+[2.768s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/colcon-core/packages/yolobot_rocognition)
+[2.779s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolobot_control)
+[2.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --install /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_control
+[2.791s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control' for CMake module files
+[2.793s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control' for CMake config files
+[2.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolobot_control', 'cmake_prefix_path')
+[2.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/hook/cmake_prefix_path.ps1'
+[2.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/hook/cmake_prefix_path.dsv'
+[2.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/hook/cmake_prefix_path.sh'
+[2.810s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/lib'
+[2.810s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/bin'
+[2.811s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/lib/pkgconfig/yolobot_control.pc'
+[2.812s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/lib/python3.10/site-packages'
+[2.813s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/bin'
+[2.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/package.ps1'
+[2.846s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/package.dsv'
+[2.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/package.sh'
+[2.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/package.bash'
+[2.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/package.zsh'
+[2.851s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/colcon-core/packages/yolobot_control)
+[2.878s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolobot_gazebo)
+[2.886s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo' for CMake module files
+[2.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --install /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_gazebo
+[2.888s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo' for CMake config files
+[2.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolobot_gazebo', 'cmake_prefix_path')
+[2.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/hook/cmake_prefix_path.ps1'
+[2.911s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/hook/cmake_prefix_path.dsv'
+[2.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/hook/cmake_prefix_path.sh'
+[2.914s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/bin'
+[2.914s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/lib/pkgconfig/yolobot_gazebo.pc'
+[2.923s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/lib/python3.10/site-packages'
+[2.923s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/bin'
+[2.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/package.ps1'
+[2.952s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/package.dsv'
+[2.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/package.sh'
+[2.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/package.bash'
+[2.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/package.zsh'
+[2.985s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/colcon-core/packages/yolobot_gazebo)
+[3.273s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolobot_rocognition)
+[3.282s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition' for CMake module files
+[3.287s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition' for CMake config files
+[3.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolobot_rocognition', 'cmake_prefix_path')
+[3.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/hook/cmake_prefix_path.ps1'
+[3.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/hook/cmake_prefix_path.dsv'
+[3.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/hook/cmake_prefix_path.sh'
+[3.321s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/bin'
+[3.321s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/lib/pkgconfig/yolobot_rocognition.pc'
+[3.325s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/lib/python3.10/site-packages'
+[3.326s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/bin'
+[3.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/package.ps1'
+[3.336s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/package.dsv'
+[3.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/package.sh'
+[3.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/package.bash'
+[3.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/yolobot_rocognition/package.zsh'
+[3.348s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_rocognition/share/colcon-core/packages/yolobot_rocognition)
+[3.357s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolobot_control)
+[3.393s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control' for CMake module files
+[3.394s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control' for CMake config files
+[3.395s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolobot_control', 'cmake_prefix_path')
+[3.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/hook/cmake_prefix_path.ps1'
+[3.402s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/hook/cmake_prefix_path.dsv'
+[3.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/hook/cmake_prefix_path.sh'
+[3.404s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/lib'
+[3.404s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/bin'
+[3.404s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/lib/pkgconfig/yolobot_control.pc'
+[3.405s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/lib/python3.10/site-packages'
+[3.405s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/bin'
+[3.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/package.ps1'
+[3.409s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/package.dsv'
+[3.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/package.sh'
+[3.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/package.bash'
+[3.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/yolobot_control/package.zsh'
+[3.413s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_control/share/colcon-core/packages/yolobot_control)
+[3.418s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolobot_gazebo)
+[3.424s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo' for CMake module files
+[3.426s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo' for CMake config files
+[3.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolobot_gazebo', 'cmake_prefix_path')
+[3.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/hook/cmake_prefix_path.ps1'
+[3.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/hook/cmake_prefix_path.dsv'
+[3.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/hook/cmake_prefix_path.sh'
+[3.432s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/bin'
+[3.432s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/lib/pkgconfig/yolobot_gazebo.pc'
+[3.433s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/lib/python3.10/site-packages'
+[3.434s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/bin'
+[3.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/package.ps1'
+[3.440s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/package.dsv'
+[3.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/package.sh'
+[3.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/package.bash'
+[3.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/yolobot_gazebo/package.zsh'
+[3.445s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_gazebo/share/colcon-core/packages/yolobot_gazebo)
+[3.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --build /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description -- -j4 -l4
+[3.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --install /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description
+[3.919s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolobot_description)
+[3.926s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description' for CMake module files
+[3.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/jotham-prince/.local/bin/cmake --install /home/jotham-prince/Desktop/Robotics/yolobot/build/yolobot_description
+[3.930s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description' for CMake config files
+[3.932s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolobot_description', 'cmake_prefix_path')
+[3.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/hook/cmake_prefix_path.ps1'
+[3.939s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/hook/cmake_prefix_path.dsv'
+[3.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/hook/cmake_prefix_path.sh'
+[3.941s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/bin'
+[3.941s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/lib/pkgconfig/yolobot_description.pc'
+[3.944s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/lib/python3.10/site-packages'
+[3.944s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/bin'
+[3.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/package.ps1'
+[3.951s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/package.dsv'
+[3.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/package.sh'
+[3.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/package.bash'
+[3.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/package.zsh'
+[3.955s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/colcon-core/packages/yolobot_description)
+[4.152s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolobot_description)
+[4.162s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description' for CMake module files
+[4.164s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description' for CMake config files
+[4.165s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolobot_description', 'cmake_prefix_path')
+[4.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/hook/cmake_prefix_path.ps1'
+[4.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/hook/cmake_prefix_path.dsv'
+[4.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/hook/cmake_prefix_path.sh'
+[4.181s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/bin'
+[4.181s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/lib/pkgconfig/yolobot_description.pc'
+[4.182s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/lib/python3.10/site-packages'
+[4.183s] Level 1:colcon.colcon_core.environment:checking '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/bin'
+[4.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/package.ps1'
+[4.191s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/package.dsv'
+[4.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/package.sh'
+[4.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/package.bash'
+[4.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/yolobot_description/package.zsh'
+[4.197s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jotham-prince/Desktop/Robotics/yolobot/install/yolobot_description/share/colcon-core/packages/yolobot_description)
+[4.199s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.199s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.199s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.200s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.231s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.231s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.231s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.270s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.288s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jotham-prince/Desktop/Robotics/yolobot/install/local_setup.ps1'
+[4.291s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jotham-prince/Desktop/Robotics/yolobot/install/_local_setup_util_ps1.py'
+[4.294s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jotham-prince/Desktop/Robotics/yolobot/install/setup.ps1'
+[4.298s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jotham-prince/Desktop/Robotics/yolobot/install/local_setup.sh'
+[4.299s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jotham-prince/Desktop/Robotics/yolobot/install/_local_setup_util_sh.py'
+[4.300s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jotham-prince/Desktop/Robotics/yolobot/install/setup.sh'
+[4.304s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jotham-prince/Desktop/Robotics/yolobot/install/local_setup.bash'
+[4.306s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jotham-prince/Desktop/Robotics/yolobot/install/setup.bash'
+[4.309s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jotham-prince/Desktop/Robotics/yolobot/install/local_setup.zsh'
+[4.310s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jotham-prince/Desktop/Robotics/yolobot/install/setup.zsh'

@@ -1,0 +1,80 @@
+[1.602s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/jotham-prince/Desktop/Robotics/yolobot']
+[1.603s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/jotham-prince/Desktop/Robotics/yolobot'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8e1fd93a90>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f8e205b0370>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f8e205b0370>>)
+[1.728s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.728s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.729s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.730s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.731s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.731s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jotham-prince/Desktop/Robotics/yolobot'
+[1.731s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot) by extensions ['ignore', 'ignore_ament_install']
+[1.734s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot) by extension 'ignore'
+[1.734s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot) by extension 'ignore_ament_install'
+[1.734s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot) by extensions ['colcon_pkg']
+[1.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot) by extension 'colcon_pkg'
+[1.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot) by extensions ['colcon_meta']
+[1.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot) by extension 'colcon_meta'
+[1.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot) by extensions ['ros']
+[1.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot) by extension 'ros'
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot) by extensions ['cmake', 'python']
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot) by extension 'cmake'
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot) by extension 'python'
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot) by extensions ['python_setup_py']
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot) by extension 'python_setup_py'
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/log) by extensions ['ignore', 'ignore_ament_install']
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/log) by extension 'ignore'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/log) ignored
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src) by extensions ['ignore', 'ignore_ament_install']
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src) by extension 'ignore'
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src) by extension 'ignore_ament_install'
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src) by extensions ['colcon_pkg']
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src) by extension 'colcon_pkg'
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src) by extensions ['colcon_meta']
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src) by extension 'colcon_meta'
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src) by extensions ['ros']
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src) by extension 'ros'
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src) by extensions ['cmake', 'python']
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src) by extension 'cmake'
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src) by extension 'python'
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src) by extensions ['python_setup_py']
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src) by extension 'python_setup_py'
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_control) by extensions ['ignore', 'ignore_ament_install']
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_control) by extension 'ignore'
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_control) by extension 'ignore_ament_install'
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_control) by extensions ['colcon_pkg']
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_control) by extension 'colcon_pkg'
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_control) by extensions ['colcon_meta']
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_control) by extension 'colcon_meta'
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_control) by extensions ['ros']
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_control) by extension 'ros'
+[1.780s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_control' with type 'ros.ament_cmake' and name 'yolobot_control'
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_description) by extensions ['ignore', 'ignore_ament_install']
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_description) by extension 'ignore'
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_description) by extension 'ignore_ament_install'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_description) by extensions ['colcon_pkg']
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_description) by extension 'colcon_pkg'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_description) by extensions ['colcon_meta']
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_description) by extension 'colcon_meta'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_description) by extensions ['ros']
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_description) by extension 'ros'
+[1.783s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_description' with type 'ros.ament_cmake' and name 'yolobot_description'
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.784s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_gazebo) by extension 'ignore'
+[1.784s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_gazebo) by extension 'ignore_ament_install'
+[1.784s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_gazebo) by extensions ['colcon_pkg']
+[1.784s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_gazebo) by extension 'colcon_pkg'
+[1.784s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_gazebo) by extensions ['colcon_meta']
+[1.784s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_gazebo) by extension 'colcon_meta'
+[1.784s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_gazebo) by extensions ['ros']
+[1.784s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_gazebo) by extension 'ros'
+[1.786s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_gazebo' with type 'ros.ament_cmake' and name 'yolobot_gazebo'
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_recognition) by extensions ['ignore', 'ignore_ament_install']
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_recognition) by extension 'ignore'
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_recognition) by extension 'ignore_ament_install'
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_recognition) by extensions ['colcon_pkg']
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_recognition) by extension 'colcon_pkg'
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_recognition) by extensions ['colcon_meta']
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_recognition) by extension 'colcon_meta'
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_recognition) by extensions ['ros']
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_recognition) by extension 'ros'
+[1.789s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jotham-prince/Desktop/Robotics/yolobot/src/yolobot_recognition' with type 'ros.ament_cmake' and name 'yolobot_rocognition'
+[1.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
